@@ -1,0 +1,413 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "pkgutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pkgutil",
+        "description": "pkgutil",
+        "detail": "pkgutil",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "b85decode",
+        "importPath": "base64",
+        "description": "base64",
+        "isExtraImport": true,
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "common_elements",
+        "kind": 2,
+        "importPath": "common",
+        "description": "common",
+        "peekOfCode": "def common_elements(list1, list2):\n    return list(set(list1) & set(list2))\nlist1 = [1, 2, 3, 4, 5]\nlist2 = [4, 5, 6, 7, 8]\ncommon = common_elements(list1, list2)\nprint(f\"Common elements: {common}\")",
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "common",
+        "description": "common",
+        "peekOfCode": "list1 = [1, 2, 3, 4, 5]\nlist2 = [4, 5, 6, 7, 8]\ncommon = common_elements(list1, list2)\nprint(f\"Common elements: {common}\")",
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "common",
+        "description": "common",
+        "peekOfCode": "list2 = [4, 5, 6, 7, 8]\ncommon = common_elements(list1, list2)\nprint(f\"Common elements: {common}\")",
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "common",
+        "kind": 5,
+        "importPath": "common",
+        "description": "common",
+        "peekOfCode": "common = common_elements(list1, list2)\nprint(f\"Common elements: {common}\")",
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "my_decorator",
+        "kind": 2,
+        "importPath": "decorator1",
+        "description": "decorator1",
+        "peekOfCode": "def my_decorator(func):\n    def wrappe1r():\n        print(\"Something is happening before the function is called.\")\n        func()\n        print(\"Something is happening after the function is called.\")\n    return wrappe1r\n@my_decorator\ndef say_hello():\n    print(\"Hello!\")\nsay_hello()",
+        "detail": "decorator1",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "decorator1",
+        "description": "decorator1",
+        "peekOfCode": "def say_hello():\n    print(\"Hello!\")\nsay_hello()",
+        "detail": "decorator1",
+        "documentation": {}
+    },
+    {
+        "label": "MyDecorator",
+        "kind": 6,
+        "importPath": "decorator2",
+        "description": "decorator2",
+        "peekOfCode": "class MyDecorator:\n    def __init__(self, func):\n        self.func = func\n    def __call__(self):\n        print(\"Something is happening before the class is called.\")\n        self.func()\n        print(\"Something is happening after the function is called.\")\n@MyDecorator\ndef say_hello():\n    print(\"Hello!\")",
+        "detail": "decorator2",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "decorator2",
+        "description": "decorator2",
+        "peekOfCode": "def say_hello():\n    print(\"Hello!\")\nsay_hello()",
+        "detail": "decorator2",
+        "documentation": {}
+    },
+    {
+        "label": "hello_world",
+        "kind": 2,
+        "importPath": "flask1",
+        "description": "flask1",
+        "peekOfCode": "def hello_world():\n    return 'Hello, World!'\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flask1",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "flask1",
+        "description": "flask1",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef hello_world():\n    return 'Hello, World!'\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flask1",
+        "documentation": {}
+    },
+    {
+        "label": "hello_world",
+        "kind": 2,
+        "importPath": "flask2",
+        "description": "flask2",
+        "peekOfCode": "def hello_world():\n    return 'Hello, World! this '\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flask2",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "flask2",
+        "description": "flask2",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef hello_world():\n    return 'Hello, World! this '\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flask2",
+        "documentation": {}
+    },
+    {
+        "label": "simple_generator",
+        "kind": 2,
+        "importPath": "generator1",
+        "description": "generator1",
+        "peekOfCode": "def simple_generator():\n    yield 1\n    yield 2\n    yield 3\ngen = simple_generator()\nfor value in gen:\n    print(value)",
+        "detail": "generator1",
+        "documentation": {}
+    },
+    {
+        "label": "gen",
+        "kind": 5,
+        "importPath": "generator1",
+        "description": "generator1",
+        "peekOfCode": "gen = simple_generator()\nfor value in gen:\n    print(value)",
+        "detail": "generator1",
+        "documentation": {}
+    },
+    {
+        "label": "include_setuptools",
+        "kind": 2,
+        "importPath": "get-pip",
+        "description": "get-pip",
+        "peekOfCode": "def include_setuptools(args):\n    \"\"\"\n    Install setuptools only if absent and not excluded.\n    \"\"\"\n    cli = not args.no_setuptools\n    env = not os.environ.get(\"PIP_NO_SETUPTOOLS\")\n    absent = not importlib.util.find_spec(\"setuptools\")\n    return cli and env and absent\ndef include_wheel(args):\n    \"\"\"",
+        "detail": "get-pip",
+        "documentation": {}
+    },
+    {
+        "label": "include_wheel",
+        "kind": 2,
+        "importPath": "get-pip",
+        "description": "get-pip",
+        "peekOfCode": "def include_wheel(args):\n    \"\"\"\n    Install wheel only if absent and not excluded.\n    \"\"\"\n    cli = not args.no_wheel\n    env = not os.environ.get(\"PIP_NO_WHEEL\")\n    absent = not importlib.util.find_spec(\"wheel\")\n    return cli and env and absent\ndef determine_pip_install_arguments():\n    pre_parser = argparse.ArgumentParser()",
+        "detail": "get-pip",
+        "documentation": {}
+    },
+    {
+        "label": "determine_pip_install_arguments",
+        "kind": 2,
+        "importPath": "get-pip",
+        "description": "get-pip",
+        "peekOfCode": "def determine_pip_install_arguments():\n    pre_parser = argparse.ArgumentParser()\n    pre_parser.add_argument(\"--no-setuptools\", action=\"store_true\")\n    pre_parser.add_argument(\"--no-wheel\", action=\"store_true\")\n    pre, args = pre_parser.parse_known_args()\n    args.append(\"pip\")\n    if include_setuptools(pre):\n        args.append(\"setuptools\")\n    if include_wheel(pre):\n        args.append(\"wheel\")",
+        "detail": "get-pip",
+        "documentation": {}
+    },
+    {
+        "label": "monkeypatch_for_cert",
+        "kind": 2,
+        "importPath": "get-pip",
+        "description": "get-pip",
+        "peekOfCode": "def monkeypatch_for_cert(tmpdir):\n    \"\"\"Patches `pip install` to provide default certificate with the lowest priority.\n    This ensures that the bundled certificates are used unless the user specifies a\n    custom cert via any of pip's option passing mechanisms (config, env-var, CLI).\n    A monkeypatch is the easiest way to achieve this, without messing too much with\n    the rest of pip's internals.\n    \"\"\"\n    from pip._internal.commands.install import InstallCommand\n    # We want to be using the internal certificates.\n    cert_path = os.path.join(tmpdir, \"cacert.pem\")",
+        "detail": "get-pip",
+        "documentation": {}
+    },
+    {
+        "label": "bootstrap",
+        "kind": 2,
+        "importPath": "get-pip",
+        "description": "get-pip",
+        "peekOfCode": "def bootstrap(tmpdir):\n    monkeypatch_for_cert(tmpdir)\n    # Execute the included pip and use it to install the latest pip and\n    # setuptools from PyPI\n    from pip._internal.cli.main import main as pip_entry_point\n    args = determine_pip_install_arguments()\n    sys.exit(pip_entry_point(args))\ndef main():\n    tmpdir = None\n    try:",
+        "detail": "get-pip",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "get-pip",
+        "description": "get-pip",
+        "peekOfCode": "def main():\n    tmpdir = None\n    try:\n        # Create a temporary working directory\n        tmpdir = tempfile.mkdtemp()\n        # Unpack the zipfile into the temporary directory\n        pip_zip = os.path.join(tmpdir, \"pip.zip\")\n        with open(pip_zip, \"wb\") as fp:\n            fp.write(b85decode(DATA.replace(b\"\\n\", b\"\")))\n        # Add the zipfile to sys.path so that we can import it",
+        "detail": "get-pip",
+        "documentation": {}
+    },
+    {
+        "label": "this_python",
+        "kind": 5,
+        "importPath": "get-pip",
+        "description": "get-pip",
+        "peekOfCode": "this_python = sys.version_info[:2]\nmin_version = (3, 7)\nif this_python < min_version:\n    message_parts = [\n        \"This script does not work on Python {}.{}\".format(*this_python),\n        \"The minimum supported Python version is {}.{}.\".format(*min_version),\n        \"Please use https://bootstrap.pypa.io/pip/{}.{}/get-pip.py instead.\".format(*this_python),\n    ]\n    print(\"ERROR: \" + \" \".join(message_parts))\n    sys.exit(1)",
+        "detail": "get-pip",
+        "documentation": {}
+    },
+    {
+        "label": "min_version",
+        "kind": 5,
+        "importPath": "get-pip",
+        "description": "get-pip",
+        "peekOfCode": "min_version = (3, 7)\nif this_python < min_version:\n    message_parts = [\n        \"This script does not work on Python {}.{}\".format(*this_python),\n        \"The minimum supported Python version is {}.{}.\".format(*min_version),\n        \"Please use https://bootstrap.pypa.io/pip/{}.{}/get-pip.py instead.\".format(*this_python),\n    ]\n    print(\"ERROR: \" + \" \".join(message_parts))\n    sys.exit(1)\nimport os.path",
+        "detail": "get-pip",
+        "documentation": {}
+    },
+    {
+        "label": "DATA",
+        "kind": 5,
+        "importPath": "get-pip",
+        "description": "get-pip",
+        "peekOfCode": "DATA = b\"\"\"\nP)h>@6aWAK2msSqRaZ{yyYBb^003nH000jF003}la4%n9X>MtBUtcb8c|B0UO2j}6z0X&KUUXrdqAR!\n-6ubz6s0VM$QfAw<4YV^ulDhQoop$MlK*;0e<?$L01LzdVw?IP-tnf*qTlkJj!Mom=viw7qw3H>hK=!\nb+JA0oQV`^+*aO7_tw^Cd$4zs{Pl#j>6{|X*AaQ6!2wJ?w>%d+2&1X4Rc!^r6h-hMtH_<n)`omXfA!z\nc)+2_nTCfpGRv1uvmTkcug)ShEPeC#tJ!y1a)P)ln~75Jc!yqZE1Gl6K?CR$<8F6kVP)a}pU*@~6k=y\n<MFxvzbFl3|p@5?5Ii7qF0_`NT{r7m1lM_B44a9>d5{IF3D`nKTt~p1QY-O00;onSXEbV_pjHy0RRA2\n0{{RI0001RX>c!JUu|J&ZeL$6aCu!)OK;mS48HqU5b43r;JP^vOMxACEp{6QLy+m1h%E`C9MAjpBNe-\n8r;{H19{ebpf{zJ27j)n8%0=-6Z#elILRo@w9oRWWbO{z8ujDS!QAC@3T%nJCf;1rX6ghzu#Z}<GSE4\n4EG}J&ngovyJ$%DCh>R@K&*?Hgj1WFD91+adaM4G`4Xs@*hA^t@nbDYdL)-aOjsW~3}QVVby(8=@7U$\nFzj5Y{w!2hUUH`?e9j7WDA;>-1aos>7j{2$~BfyL8p@__Y98dsP#Bs7^<X<wp+-f{6%mc1~N!0T>lWF",
+        "detail": "get-pip",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "list1",
+        "description": "list1",
+        "peekOfCode": "list1 = [100, 200, 300, 400, 500]\nprint(list1)\nlist1.reverse()\nprint(list1)",
+        "detail": "list1",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "list2",
+        "description": "list2",
+        "peekOfCode": "list1 = [100, 200, 300, 400, 500]\nlist1 = list1[::-1]\nprint(list1)",
+        "detail": "list2",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "list2",
+        "description": "list2",
+        "peekOfCode": "list1 = list1[::-1]\nprint(list1)",
+        "detail": "list2",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "list3",
+        "description": "list3",
+        "peekOfCode": "list1 = [\"M\", \"na\", \"i\", \"Ke\"]\nlist2 = [\"y\", \"me\", \"s\", \"lly\"]\nlist3 = [i + j for i,j in zip(list1, list2)]\nprint(list3)",
+        "detail": "list3",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "list3",
+        "description": "list3",
+        "peekOfCode": "list2 = [\"y\", \"me\", \"s\", \"lly\"]\nlist3 = [i + j for i,j in zip(list1, list2)]\nprint(list3)",
+        "detail": "list3",
+        "documentation": {}
+    },
+    {
+        "label": "list3",
+        "kind": 5,
+        "importPath": "list3",
+        "description": "list3",
+        "peekOfCode": "list3 = [i + j for i,j in zip(list1, list2)]\nprint(list3)",
+        "detail": "list3",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "list4",
+        "description": "list4",
+        "peekOfCode": "list1 = [10, 20, 30, 40]\nlist2 = [100, 200, 300, 400]\nfor x, y in zip(list1[::-1], list2):\n    print(x, y)",
+        "detail": "list4",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "list4",
+        "description": "list4",
+        "peekOfCode": "list2 = [100, 200, 300, 400]\nfor x, y in zip(list1[::-1], list2):\n    print(x, y)",
+        "detail": "list4",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "list5",
+        "description": "list5",
+        "peekOfCode": "list1 = [\"Mike\", \"\", \"Emma\", \"Kelly\", \"\", \"Brad\"]\nres = list(filter(None, list1))\nprint(res)",
+        "detail": "list5",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "list5",
+        "description": "list5",
+        "peekOfCode": "res = list(filter(None, list1))\nprint(res)",
+        "detail": "list5",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_string",
+        "kind": 2,
+        "importPath": "reverse_string",
+        "description": "reverse_string",
+        "peekOfCode": "def reverse_string(input_string):\n    return input_string[::-1]\ninput_string = \"Hello, World!\"\nreversed_string = reverse_string(input_string)\nprint(reversed_string)",
+        "detail": "reverse_string",
+        "documentation": {}
+    },
+    {
+        "label": "input_string",
+        "kind": 5,
+        "importPath": "reverse_string",
+        "description": "reverse_string",
+        "peekOfCode": "input_string = \"Hello, World!\"\nreversed_string = reverse_string(input_string)\nprint(reversed_string)",
+        "detail": "reverse_string",
+        "documentation": {}
+    },
+    {
+        "label": "reversed_string",
+        "kind": 5,
+        "importPath": "reverse_string",
+        "description": "reverse_string",
+        "peekOfCode": "reversed_string = reverse_string(input_string)\nprint(reversed_string)",
+        "detail": "reverse_string",
+        "documentation": {}
+    }
+]
