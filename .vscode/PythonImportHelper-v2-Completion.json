@@ -321,8 +321,17 @@
         "kind": 5,
         "importPath": "ex4",
         "description": "ex4",
-        "peekOfCode": "x = lambda a : a + 10\nprint(x(5))",
+        "peekOfCode": "x = lambda a : a + 10 + 5*a \nprint(x(5))",
         "detail": "ex4",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "x = lambda a, b : a * b\nprint(x(5, 6))",
+        "detail": "ex5",
         "documentation": {}
     },
     {
