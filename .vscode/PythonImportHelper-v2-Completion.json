@@ -227,6 +227,96 @@
         "documentation": {}
     },
     {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "ex2",
+        "description": "ex2",
+        "peekOfCode": "set1 = {1, 2, 3}\nset2 = {3, 4, 5}\nunion_result = set1 | set2  # Union of two sets\nintersection_result = set1 & set2  # Intersection of two sets\ndifference_result = set1 - set2  # Difference of two sets",
+        "detail": "ex2",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "ex2",
+        "description": "ex2",
+        "peekOfCode": "set2 = {3, 4, 5}\nunion_result = set1 | set2  # Union of two sets\nintersection_result = set1 & set2  # Intersection of two sets\ndifference_result = set1 - set2  # Difference of two sets",
+        "detail": "ex2",
+        "documentation": {}
+    },
+    {
+        "label": "union_result",
+        "kind": 5,
+        "importPath": "ex2",
+        "description": "ex2",
+        "peekOfCode": "union_result = set1 | set2  # Union of two sets\nintersection_result = set1 & set2  # Intersection of two sets\ndifference_result = set1 - set2  # Difference of two sets",
+        "detail": "ex2",
+        "documentation": {}
+    },
+    {
+        "label": "intersection_result",
+        "kind": 5,
+        "importPath": "ex2",
+        "description": "ex2",
+        "peekOfCode": "intersection_result = set1 & set2  # Intersection of two sets\ndifference_result = set1 - set2  # Difference of two sets",
+        "detail": "ex2",
+        "documentation": {}
+    },
+    {
+        "label": "difference_result",
+        "kind": 5,
+        "importPath": "ex2",
+        "description": "ex2",
+        "peekOfCode": "difference_result = set1 - set2  # Difference of two sets",
+        "detail": "ex2",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "set1 = {1, 2, 3}\nset2 = {3, 4, 5}\nunion_result = set1 | set2  # Union of two sets\nintersection_result = set1 & set2  # Intersection of two sets\ndifference_result = set1 - set2  # Difference of two sets\nprint(union_result)\nprint(intersection_result)\nprint(difference_result)",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "set2 = {3, 4, 5}\nunion_result = set1 | set2  # Union of two sets\nintersection_result = set1 & set2  # Intersection of two sets\ndifference_result = set1 - set2  # Difference of two sets\nprint(union_result)\nprint(intersection_result)\nprint(difference_result)",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "union_result",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "union_result = set1 | set2  # Union of two sets\nintersection_result = set1 & set2  # Intersection of two sets\ndifference_result = set1 - set2  # Difference of two sets\nprint(union_result)\nprint(intersection_result)\nprint(difference_result)",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "intersection_result",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "intersection_result = set1 & set2  # Intersection of two sets\ndifference_result = set1 - set2  # Difference of two sets\nprint(union_result)\nprint(intersection_result)\nprint(difference_result)",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "difference_result",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "difference_result = set1 - set2  # Difference of two sets\nprint(union_result)\nprint(intersection_result)\nprint(difference_result)",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
         "label": "hello_world",
         "kind": 2,
         "importPath": "flask1",
