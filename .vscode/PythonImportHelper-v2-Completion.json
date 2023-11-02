@@ -200,6 +200,33 @@
         "documentation": {}
     },
     {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "ex1",
+        "description": "ex1",
+        "peekOfCode": "my_list = [1, 2, 2, 3, 4, 2, 5, 2,2,2,2,2,2,2,2]\nitem_to_count = 2\ncount = my_list.count(item_to_count)\nprint(f\"{item_to_count} appears {count} times in the list.\")",
+        "detail": "ex1",
+        "documentation": {}
+    },
+    {
+        "label": "item_to_count",
+        "kind": 5,
+        "importPath": "ex1",
+        "description": "ex1",
+        "peekOfCode": "item_to_count = 2\ncount = my_list.count(item_to_count)\nprint(f\"{item_to_count} appears {count} times in the list.\")",
+        "detail": "ex1",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "ex1",
+        "description": "ex1",
+        "peekOfCode": "count = my_list.count(item_to_count)\nprint(f\"{item_to_count} appears {count} times in the list.\")",
+        "detail": "ex1",
+        "documentation": {}
+    },
+    {
         "label": "hello_world",
         "kind": 2,
         "importPath": "flask1",
