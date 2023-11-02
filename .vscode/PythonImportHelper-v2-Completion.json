@@ -25,6 +25,38 @@
         "documentation": {}
     },
     {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -201,6 +233,78 @@
         "description": "flask2",
         "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef hello_world():\n    return 'Hello, World! this '\nif __name__ == '__main__':\n    app.run()",
         "detail": "flask2",
+        "documentation": {}
+    },
+    {
+        "label": "hello_world",
+        "kind": 2,
+        "importPath": "flask4",
+        "description": "flask4",
+        "peekOfCode": "def hello_world():\n    return 'Hello, World! 44444 '\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flask4",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "flask4",
+        "description": "flask4",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef hello_world():\n    return 'Hello, World! 44444 '\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flask4",
+        "documentation": {}
+    },
+    {
+        "label": "hello_world",
+        "kind": 2,
+        "importPath": "flaskexample",
+        "description": "flaskexample",
+        "peekOfCode": "def hello_world():\n    return 'Hello, World! 44444 '\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flaskexample",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "flaskexample",
+        "description": "flaskexample",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef hello_world():\n    return 'Hello, World! 44444 '\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flaskexample",
+        "documentation": {}
+    },
+    {
+        "label": "hello_world",
+        "kind": 2,
+        "importPath": "flaskexamplenew",
+        "description": "flaskexamplenew",
+        "peekOfCode": "def hello_world():\n    return 'Hello, World! sample '\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flaskexamplenew",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "flaskexamplenew",
+        "description": "flaskexamplenew",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef hello_world():\n    return 'Hello, World! sample '\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flaskexamplenew",
+        "documentation": {}
+    },
+    {
+        "label": "hello_world",
+        "kind": 2,
+        "importPath": "flaskexamplenew2",
+        "description": "flaskexamplenew2",
+        "peekOfCode": "def hello_world():\n    return 'Hello, World! sample '\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flaskexamplenew2",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "flaskexamplenew2",
+        "description": "flaskexamplenew2",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef hello_world():\n    return 'Hello, World! sample '\nif __name__ == '__main__':\n    app.run()",
+        "detail": "flaskexamplenew2",
         "documentation": {}
     },
     {
