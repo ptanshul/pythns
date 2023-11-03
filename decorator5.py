@@ -8,6 +8,7 @@ def log_datetime(func):
         print(f'Function: {func.__name__}\nRun on: {datetime.today().strftime("%Y-%m-%d %H:%M:%S")}')
         print(f'{"-"*30}')
         func()
+        
     return wrapper
 
 
@@ -18,3 +19,4 @@ def daily_backup():
 
      
 daily_backup()
+print(daily_backup.__name__)

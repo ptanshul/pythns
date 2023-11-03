@@ -221,7 +221,7 @@
         "kind": 2,
         "importPath": "decorator5",
         "description": "decorator5",
-        "peekOfCode": "def daily_backup():\n    print('Daily backup job has finished.')   \ndaily_backup()",
+        "peekOfCode": "def daily_backup():\n    print('Daily backup job has finished.')   \ndaily_backup()\nprint(daily_backup.__name__)",
         "detail": "decorator5",
         "documentation": {}
     },
