@@ -1,5 +1,13 @@
 [
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "flask",
         "kind": 6,
         "isExtraImport": true,
@@ -197,6 +205,24 @@
         "description": "decorator2",
         "peekOfCode": "def say_hello():\n    print(\"Hello!\")\nsay_hello()",
         "detail": "decorator2",
+        "documentation": {}
+    },
+    {
+        "label": "log_datetime",
+        "kind": 2,
+        "importPath": "decorator5",
+        "description": "decorator5",
+        "peekOfCode": "def log_datetime(func):\n    '''Log the date and time of a function'''\n    def wrapper():\n        print(f'Function: {func.__name__}\\nRun on: {datetime.today().strftime(\"%Y-%m-%d %H:%M:%S\")}')\n        print(f'{\"-\"*30}')\n        func()\n    return wrapper\n@log_datetime\ndef daily_backup():\n    print('Daily backup job has finished.')   ",
+        "detail": "decorator5",
+        "documentation": {}
+    },
+    {
+        "label": "daily_backup",
+        "kind": 2,
+        "importPath": "decorator5",
+        "description": "decorator5",
+        "peekOfCode": "def daily_backup():\n    print('Daily backup job has finished.')   \ndaily_backup()",
+        "detail": "decorator5",
         "documentation": {}
     },
     {
