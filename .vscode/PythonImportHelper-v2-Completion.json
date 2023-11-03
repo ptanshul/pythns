@@ -344,6 +344,24 @@
         "documentation": {}
     },
     {
+        "label": "f",
+        "kind": 5,
+        "importPath": "ex7",
+        "description": "ex7",
+        "peekOfCode": "f = open(\"test.log\", \"r\") \nprint(f.readline())",
+        "detail": "ex7",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "file1",
+        "description": "file1",
+        "peekOfCode": "f = open(\"test.log\", \"r\") \nwhile 1:\n    char = f.read(1)\n    if not char:\n        break\n    if char.isupper():\n        print(char)\nf.close()",
+        "detail": "file1",
+        "documentation": {}
+    },
+    {
         "label": "hello_world",
         "kind": 2,
         "importPath": "flask1",
