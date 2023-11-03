@@ -631,6 +631,24 @@
         "documentation": {}
     },
     {
+        "label": "list_instance",
+        "kind": 5,
+        "importPath": "iterator3",
+        "description": "iterator3",
+        "peekOfCode": "list_instance = [1, 2, 3, 4]\n# convert the list to an iterator\niterator = iter(list_instance)\n# return items one at a time\nprint(list(iterator))",
+        "detail": "iterator3",
+        "documentation": {}
+    },
+    {
+        "label": "iterator",
+        "kind": 5,
+        "importPath": "iterator3",
+        "description": "iterator3",
+        "peekOfCode": "iterator = iter(list_instance)\n# return items one at a time\nprint(list(iterator))",
+        "detail": "iterator3",
+        "documentation": {}
+    },
+    {
         "label": "list1",
         "kind": 5,
         "importPath": "list1",
