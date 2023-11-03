@@ -597,6 +597,15 @@
     {
         "label": "list1",
         "kind": 5,
+        "importPath": "iterator1",
+        "description": "iterator1",
+        "peekOfCode": "list1 = [0, 1, 2]",
+        "detail": "iterator1",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
         "importPath": "list1",
         "description": "list1",
         "peekOfCode": "list1 = [100, 200, 300, 400, 500]\nprint(list1)\nlist1.reverse()\nprint(list1)",
