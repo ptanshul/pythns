@@ -1,3 +1,4 @@
-list1 = [0, 1, 2]
+list1 = ["A", "b", "G"]
 iter1 = list1.__iter__()
-print(iter1.__next__())
+if iter1.isupper():
+    print(iter1.__next__())

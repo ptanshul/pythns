@@ -599,8 +599,35 @@
         "kind": 5,
         "importPath": "iterator1",
         "description": "iterator1",
-        "peekOfCode": "list1 = [0, 1, 2]",
+        "peekOfCode": "list1 = [\"A\", \"b\", \"G\"]\niter1 = list1.__iter__()\nif iter1.isupper():\n    print(iter1.__next__())",
         "detail": "iterator1",
+        "documentation": {}
+    },
+    {
+        "label": "iter1",
+        "kind": 5,
+        "importPath": "iterator1",
+        "description": "iterator1",
+        "peekOfCode": "iter1 = list1.__iter__()\nif iter1.isupper():\n    print(iter1.__next__())",
+        "detail": "iterator1",
+        "documentation": {}
+    },
+    {
+        "label": "list_instance",
+        "kind": 5,
+        "importPath": "iterator2",
+        "description": "iterator2",
+        "peekOfCode": "list_instance = [1, 2, 3, 4]\n# convert the list to an iterator\niterator = iter(list_instance)\n# return items one at a time\nprint(next(iterator))\nprint(next(iterator))\nprint(next(iterator))\nprint(next(iterator))",
+        "detail": "iterator2",
+        "documentation": {}
+    },
+    {
+        "label": "iterator",
+        "kind": 5,
+        "importPath": "iterator2",
+        "description": "iterator2",
+        "peekOfCode": "iterator = iter(list_instance)\n# return items one at a time\nprint(next(iterator))\nprint(next(iterator))\nprint(next(iterator))\nprint(next(iterator))",
+        "detail": "iterator2",
         "documentation": {}
     },
     {
