@@ -514,6 +514,15 @@
         "documentation": {}
     },
     {
+        "label": "simpleGeneratorFun",
+        "kind": 2,
+        "importPath": "generator2",
+        "description": "generator2",
+        "peekOfCode": "def simpleGeneratorFun(): \n    yield 1            \n    yield 2            \n    yield 3            \n# Driver code to check above generator function \nfor value in simpleGeneratorFun():  \n    print(value)",
+        "detail": "generator2",
+        "documentation": {}
+    },
+    {
         "label": "include_setuptools",
         "kind": 2,
         "importPath": "get-pip",
